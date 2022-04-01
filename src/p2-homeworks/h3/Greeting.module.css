@@ -1,0 +1,7 @@
+.someClass {
+    display: block; color: red;font-size: 14px; font-weight: bold;
+}
+
+.error {
+    border: 1px solid red;
+}

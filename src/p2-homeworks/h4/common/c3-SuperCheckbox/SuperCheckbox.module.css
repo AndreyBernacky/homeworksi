@@ -1,0 +1,22 @@
+label{
+    display: flex;
+    margin: 0 0 10px 0;
+    align-items: center;
+}
+
+.checkbox {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #02877a;
+    margin: 0 7px 0 0;
+    border-radius: 3px;
+}
+.checkbox:checked{
+    background: #cf52ed url("checked.jpg") no-repeat center center;
+    background-size: cover; border: none;
+}
+
+.spanClassName {
+    font: normal 1rem Arial;
+}

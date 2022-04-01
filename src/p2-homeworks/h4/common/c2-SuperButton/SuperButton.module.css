@@ -1,0 +1,25 @@
+.default {
+    background: #629b0b; color: #fff;
+    margin: 10px; border-radius: 5px; border: none;
+    padding: 7px 16px; cursor: pointer;
+    transition: all .1s;
+}
+.default:hover{
+    background: #28810e;
+}
+
+.red {
+    background: #c82a2a;
+    margin: 10px; border-radius: 5px; border: none;
+    padding: 7px 16px; cursor: pointer;
+    transition: all .1s;
+}
+.red:hover{
+    background: #ff0000;
+}
+button:disabled{
+    background: #a5a5a7; color: #000; cursor: default;
+}
+button:hover:disabled{
+    background: #a5a5a7; color: #000;
+}

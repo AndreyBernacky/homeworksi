@@ -1,0 +1,29 @@
+.navWrap{
+    overflow: hidden;
+}
+.nav{
+    display: flex; list-style: none; padding: 0;
+    position: relative; left: -290px;
+    transition: all .1s;
+}
+.nav:hover {
+    left: 0;
+}
+.nav li:first-child{
+    margin-left: 0;
+}
+
+.nav li{
+    margin: 5px 1rem;
+}
+.nav li span{
+    display: inline-block; background: #167ce3; color: #ffffff; font-weight: bold;
+    padding: 5px 10px;
+}
+.nav li a{
+    color: #06194a;
+}
+.nav li a:hover{
+    text-decoration: none;
+}
+
