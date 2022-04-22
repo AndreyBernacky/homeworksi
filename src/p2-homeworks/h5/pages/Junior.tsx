@@ -9,9 +9,9 @@ function Junior() {
         <div>
             <h3>Junior Page</h3>
             <HW7/>
-            <HW8/>
-            <HW9/>
-            <HW10/>
+            {/*<HW8/>*/}
+            {/*<HW9/>*/}
+            {/*<HW10/>*/}
         </div>
     )
 }
